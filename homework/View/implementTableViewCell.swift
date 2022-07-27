@@ -24,7 +24,7 @@ class implementTableViewCell: UITableViewCell {
     
     @IBOutlet var movieImageView: UIImageView! {
         didSet {
-            movieImageView.layer.cornerRadius = 20.0
+            movieImageView.layer.cornerRadius = 20.5
             movieImageView.clipsToBounds = true
         }
     }
